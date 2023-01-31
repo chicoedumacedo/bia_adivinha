@@ -3,7 +3,7 @@
 //let numeroCerto = numeroRandomico
 //console.log(numeroCerto)
 
-
-function checarTentativa(){
-    console.log("Teste front - back - log");
+function enviar(){
+    var valorDigitado = document.getElementById("textinput").value;
+    console.log("Valor digitado " + valorDigitado);
 }
