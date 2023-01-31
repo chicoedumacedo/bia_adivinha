@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo h1{
+    width: 200px;
+    font-size: 48px;
+}
+.topo h1 span{
+    color: #FFB431;
+}
