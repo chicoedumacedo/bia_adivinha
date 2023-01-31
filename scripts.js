@@ -1,9 +1,10 @@
-let tentativas = 0;
-let numeroRandomico = Math.floor(Math.random() * 100) + 1;
-let numeroCerto = numeroRandomico
-console.log(numeroCerto)
+//let tentativas = 0;
+//let numeroRandomico = Math.floor(Math.random() * 100) + 1;
+//let numeroCerto = numeroRandomico
+//console.log(numeroCerto)
 
 
-checarTentativa(){
-    
+function checarTentativa(){
+    alert("Teste front - back");
+    console.log("Teste front - back - log");
 }
