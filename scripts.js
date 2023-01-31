@@ -5,6 +5,5 @@
 
 
 function checarTentativa(){
-    alert("Teste front - back");
     console.log("Teste front - back - log");
 }
