@@ -12,15 +12,27 @@ console.log(numeroCerto)
 
 let tentativas = []
 
-    tentativa.addEventListener('click', function () {
+    // function hasDuplicates(tentativas) {
+    //     let valuesSoFar = [];
+    //     for (let i = 0; i < tentativas.length; ++i) {
+    //       let value = tentativas[i];
+    //       if (valuesSoFar.indexOf(value) !== -1) {
+    //         return true;
+    //       }
+    //       valuesSoFar.push(value);
+    //     }
+    //     return false;
+    //   }
 
-    // if (tentativas.includes(sugestao.value) == true){
-    //     alert('Palpite Repetido')
-    //     console.log('teste',tentativas.includes(sugestao.value) == true)
-    // }else{
-    //     tentativas.push(Number(sugestao.value))  
+    // tentativa.addEventListener('click', function () {
+    //     if (tentativas.includes(sugestao.value) === true){
+    //         tentativas.push(Number(sugestao.value)) 
+    //     }else{
+    //         alert('Palpite Repetido')
+         
     // }
-
+tentativa.addEventListener('click', function () {
+    
     tentativas.push(Number(sugestao.value))
     
 
